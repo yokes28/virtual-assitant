@@ -11,6 +11,6 @@ Steps:
 2) open it in any of the IDE u use( i prefer pycharm)
 3) run command pip install requirements.txt
 4) or pip install *modules* imported
-5) run the file
+5) run the file and say 'Olive'
 
 
