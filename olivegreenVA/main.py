@@ -23,7 +23,7 @@ from win10toast import ToastNotifier
 
 engine = pyttsx3.init()
 rate = engine.setProperty('rate',175)
-engine.say('thankyou for turning in back me')
+engine.say('welcome commander')
 
 
 def speak(audio):
