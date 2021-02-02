@@ -65,7 +65,7 @@ def buddytime():
 
 def location():
     speak('getting ur location as per ur request ')
-    speak('your home is at chinniyampalayam')
+    speak('you home is at')
     speak('opening google maps location for your reference')
     webbrowser.open("enter ur google map location")
 
@@ -77,11 +77,6 @@ def cpu():
     speak('Battery is at')
     speak(battery.percent)
 
-def keywords():
-    speak('opening keywords for ur help')
-    speak('go through it and take me on board')
-    kw = r"C:\Users\SElangovan\Desktop\keywords of olivegreenVA.txt"
-    os.startfile(kw)
 
 def screenshot():
     speak('taking screenshot')
@@ -172,8 +167,6 @@ if __name__=='__main__':
 
     clear()
     start()
-    speak('i am opening keywords for ur refernce and we shall proceed')
-    keywords()
               
     while True:
         search = takecommand().lower()
