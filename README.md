@@ -1,7 +1,8 @@
-# virtual-assitant
+# Virtual-Assitant
 virtual assistant for ur PC - The name of the VA is 'Olivegreen'
 
 For Weather Update - get ur API Key from 'www.openweathermap.org'
+
 Paste ur api key in the location notified in the Code
 
 Steps:
